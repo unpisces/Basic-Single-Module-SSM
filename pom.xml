@@ -25,7 +25,7 @@
 
         <!--2016-02-20切换到spring3试试-->
         <!--mybatis官网：http://blog.mybatis.org/2016/02/mybatis-331-and-mybatis-spring-124.html,在2016-02-13发布了3.3.1版本-->
-        <spring.version>3.2.16.RELEASE</spring.version>
+        <spring.version>4.3.15.RELEASE</spring.version>
         <mybatis.version>3.3.1</mybatis.version>
         <mybatis-spring.version>1.2.4</mybatis-spring.version>
 
@@ -36,7 +36,7 @@
 
 
         <junit.version>4.11</junit.version>
-        <mysql-connector.version>5.1.21</mysql-connector.version>
+        <mysql-connector.version>5.1.42</mysql-connector.version>
         <druid.version>1.0.4</druid.version>
 
         <!--<slf4j.version>1.7.7</slf4j.version>-->
@@ -47,14 +47,14 @@
         <jsp-api.version>2.0</jsp-api.version>
         <servlet-api.version>2.5</servlet-api.version>
 
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-email.version>1.3.2</commons-email.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
 
         <httpclient.version>4.3.3</httpclient.version>
-        <jackson-databind.version>2.4.2</jackson-databind.version>
+        <jackson-databind.version>2.8.11.1</jackson-databind.version>
         <fastjson.version>1.1.43</fastjson.version>
         <!--架包版本变量 end-->
 
@@ -295,7 +295,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -305,7 +305,7 @@
         <dependency>
             <groupId>org.logback-extensions</groupId>
             <artifactId>logback-ext-spring</artifactId>
-            <version>0.1.4</version>
+            <version>0.1.5</version>
         </dependency>
         <!--使用logback end-->
         <!-- 日志文件管理包 end -->
